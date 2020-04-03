@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Travis Scott Soundboard</title>
+	<link rel="stylesheet" type="text/css" href="./css/main.css">
+	<script>
+		function PlaySound(fileName) {
+			var path = "./" + fileName + ".mp3"
+			var sound = new Audio(path);
+			sound.play();
+		}
+	</script>
+</head>
+<body class="body">
+	<nav>
+		<ul>
+			
+		</ul>
+	</nav>
+	<div class="container">
+		<div class="blurb">
+			<h1 class="title">Skepta Soundboard</h1>
+		</div><!-- /.container -->
+
+		<div class="list">
+			<ul class="button-list">
+				<button class="button-1" onclick="PlaySound('audio/skepta')">skepta</button>
+				<button class="button-1" onclick="PlaySound('audio/greaze')">greaze</button>
+				<button class="button-1" onclick="PlaySound('audio/supergreaze')">super greaze</button>
+				<button class="button-1" onclick="PlaySound('audio/easy')">easy</button>
+				<button class="button-1" onclick="PlaySound('audio/jme')">jme</button>
+				<button class="button-1" onclick="PlaySound('audio/onelineflows')">onelineflows</button>
+				<button class="button-1" onclick="PlaySound('audio/shutdown')">shutdown</button>
+				<button class="button-1" onclick="PlaySound('audio/squadganggang')">squad GANG GANG</button>
+				<button class="button-1" onclick="PlaySound('audio/startmovingcorrectly')">start moving correctly</button>
+				<button class="button-1" onclick="PlaySound('audio/whatyoumeanwhatyoumean')">WHAT YOU MEAN</button>
+				<button class="button-1" onclick="PlaySound('audio/yougetme')">YOU GET ME</button>
+			</ul>
+		</div>
+
+		<footer class="footer">
+			<ul>
+				<li><a href="www.noahing.com">www.noahing.com</a></li>
+			</ul>
+		</footer>
+	</body>
+	</html>
